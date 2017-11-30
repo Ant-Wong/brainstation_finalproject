@@ -34,7 +34,7 @@ class LogIn extends React.Component {
             <div className="container-fluid" id="login-background">
                 <form ref={(self) => { this.loginForm = self }} className="login-form">
                 <div>
-                    <h1 className="welcome">Welcome.</h1>
+                    <h1 className="welcome">ELECTRIC CITY</h1>
                 </div>
                 <div>
                     <TextField

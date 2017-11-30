@@ -28,6 +28,11 @@ class SignUpForm extends React.Component {
         
         return (
             <div className="container">
+                <h1 className="info-request">
+                    <img src="./images/clipboard.svg" alt="checklist" height="100" width="100" className="clipboard" />
+                    Please enter your information
+                    <img src="./images/clipboard.svg" alt="checklist" height="100" width="100" className="clipboard"/>
+                </h1>
                 <form ref={(self) => { this.loginForm = self }} className="signup-form">
                 <div className="col-md-6">
                 <div>

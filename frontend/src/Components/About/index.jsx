@@ -3,46 +3,70 @@ import React from 'react';
 class About extends React.Component {
     render() {
         return (
-            <div className="container-fluid">
+            <div className="container-fluid" id="about-position">
             <div className="info">
                 <div id="about">
-                    <h1 className="home-header">ABOUT<img src="./images/lightning.svg" alt="logo" height="50" width="50" className="icon-header" /></h1>
+                    <h1 className="home-header">ABOUT<img src="./images/lightning.svg" alt="logo" height="75" width="75" className="icon-header" /></h1>
                 <hr />
                 <p className="paragraph">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare elit eu tempus tempor.
-                    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec at volutpat neque. 
-                    Ut pellentesque hendrerit nisl, vitae pretium risus tempor imperdiet. Nunc placerat faucibus eros, non pharetra dui pretium vitae. 
-                    Phasellus sit amet hendrerit urna, a ultrices mi. Donec ut felis nec sem fermentum suscipit nec vitae sem. Duis eros ante, imperdiet nec metus id, egestas finibus arcu. 
-                    Cras aliquam est quis lacus viverra, eu tristique orci commodo. Curabitur urna mi, aliquet ut elementum in, eleifend sit amet purus.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu neque massa. Nullam non sapien volutpat, feugiat lectus at, fringilla magna. 
+                    Vivamus tincidunt volutpat egestas. Suspendisse euismod, lorem eu feugiat scelerisque, ligula enim imperdiet lacus, sed euismod tellus elit convallis nisl. 
+                    Ut non quam sem. Cras eget ante aliquam, volutpat nibh id, sagittis nisl. 
+                    Nam interdum, sem quis vestibulum feugiat, augue elit viverra lectus, vitae hendrerit nisl massa mattis mauris. 
+                    Mauris dignissim ipsum tempus ornare molestie. Integer lobortis in nisl sed interdum. Donec venenatis at lacus eu dictum. 
+                    Fusce faucibus mi a est vestibulum, in pulvinar massa rhoncus. Nulla sit amet leo rhoncus, fermentum neque ac, hendrerit orci. 
+                    Aliquam ac eros vel metus rutrum feugiat eget nec quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque viverra blandit ligula et auctor. 
+                    Donec imperdiet ex eget vehicula ultrices. In vel feugiat nisi. Vestibulum placerat, tellus in placerat aliquet, magna mauris finibus sapien, sodales malesuada lectus quam eu magna. 
+                    Ut vulputate augue a orci bibendum, eget malesuada est finibus. Donec volutpat, urna et euismod efficitur, sapien dui convallis mi, a maximus sem est et lectus. 
+                    Curabitur quis nibh viverra, facilisis est accumsan, ornare leo. Cras eu molestie nibh. Integer sit amet vestibulum neque, a ullamcorper massa. 
+                    Sed at mi nec nibh fringilla interdum. Vivamus pharetra, tortor sed scelerisque pulvinar, tortor diam porta enim, id convallis nisl est id nisl. 
+                    Nunc sed nulla sit amet mi laoreet vehicula. Integer porttitor diam quis condimentum consectetur. Vestibulum sollicitudin lorem est, eget vestibulum mi tempus quis. 
+                    Nullam in quam sed felis facilisis hendrerit non vel felis. In lacinia pretium lectus a auctor. Maecenas at iaculis dolor. Integer rutrum porta lorem nec dignissim. 
+                    Pellentesque mauris lacus, rutrum sit amet enim et, molestie imperdiet nunc. Morbi vitae efficitur mauris.
                 </p>
                 </div>
             </div>
             <div className="info">
                 <div id="pricing">
-                <h1 className="home-header">PRICING<img src="./images/notes.svg" alt="pricing" height="50" width="50" className="icon-header" /></h1>
+                <h1 className="home-header">PRICING<img src="./images/notes.svg" alt="pricing" height="75" width="75" className="icon-header" /></h1>
             <hr />
             <p className="paragraph">
-                Donec sollicitudin, sem nec commodo tempor, nisl magna porttitor massa, rutrum eleifend neque justo eu felis.
-                    Sed eget dui in odio sollicitudin feugiat at quis augue. Ut rutrum gravida rutrum. Phasellus vehicula purus velit, ut accumsan justo luctus quis.
-                    Cras et laoreet lectus. Praesent dignissim enim eu laoreet facilisis.
-                    Suspendisse sollicitudin, metus vel placerat sodales, arcu risus gravida odio, feugiat laoreet magna magna et odio.
-                    Proin laoreet dui lacus, in commodo purus tempor bibendum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu neque massa. Nullam non sapien volutpat, feugiat lectus at, fringilla magna. 
+                    Vivamus tincidunt volutpat egestas. Suspendisse euismod, lorem eu feugiat scelerisque, ligula enim imperdiet lacus, sed euismod tellus elit convallis nisl. 
+                    Ut non quam sem. Cras eget ante aliquam, volutpat nibh id, sagittis nisl. 
+                    Nam interdum, sem quis vestibulum feugiat, augue elit viverra lectus, vitae hendrerit nisl massa mattis mauris. 
+                    Mauris dignissim ipsum tempus ornare molestie. Integer lobortis in nisl sed interdum. Donec venenatis at lacus eu dictum. 
+                    Fusce faucibus mi a est vestibulum, in pulvinar massa rhoncus. Nulla sit amet leo rhoncus, fermentum neque ac, hendrerit orci. 
+                    Aliquam ac eros vel metus rutrum feugiat eget nec quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque viverra blandit ligula et auctor. 
+                    Donec imperdiet ex eget vehicula ultrices. In vel feugiat nisi. Vestibulum placerat, tellus in placerat aliquet, magna mauris finibus sapien, sodales malesuada lectus quam eu magna. 
+                    Ut vulputate augue a orci bibendum, eget malesuada est finibus. Donec volutpat, urna et euismod efficitur, sapien dui convallis mi, a maximus sem est et lectus. 
+                    Curabitur quis nibh viverra, facilisis est accumsan, ornare leo. Cras eu molestie nibh. Integer sit amet vestibulum neque, a ullamcorper massa. 
+                    Sed at mi nec nibh fringilla interdum. Vivamus pharetra, tortor sed scelerisque pulvinar, tortor diam porta enim, id convallis nisl est id nisl. 
+                    Nunc sed nulla sit amet mi laoreet vehicula. Integer porttitor diam quis condimentum consectetur. Vestibulum sollicitudin lorem est, eget vestibulum mi tempus quis. 
+                    Nullam in quam sed felis facilisis hendrerit non vel felis. In lacinia pretium lectus a auctor. Maecenas at iaculis dolor. Integer rutrum porta lorem nec dignissim. 
+                    Pellentesque mauris lacus, rutrum sit amet enim et, molestie imperdiet nunc. Morbi vitae efficitur mauris.
                 </p>
                 </div>
             </div>
             <div className="info">
                 <div id="faq">
-                <h1 className="home-header">FAQ<img src="./images/mailbox.svg" alt="questions" height="50" width="50" className="icon-header" /></h1>
+                <h1 className="home-header">FAQ<img src="./images/mailbox.svg" alt="questions" height="75" width="75" className="icon-header" /></h1>
                 <hr />
                 <p className="paragraph">
-                    Maecenas vulputate magna a consequat pretium. Nam gravida tempor maximus. Aliquam at est ut tortor fringilla semper.
-                    Nullam luctus faucibus imperdiet. Sed ullamcorper odio non odio lacinia, at malesuada dolor ultrices.
-                    Curabitur auctor ullamcorper varius. Praesent massa turpis, ultricies id nulla vitae, commodo ornare mauris.
-                    Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                    Fusce rutrum, magna nec lobortis tristique, orci orci dignissim ipsum, sed facilisis sapien orci eu felis.
-                    Donec fringilla aliquam eros, ut condimentum dui. Integer hendrerit ante purus, sed sollicitudin lectus gravida a.
-                    Proin tempor viverra facilisis. In luctus ut nunc sed ornare. Phasellus laoreet velit tellus, et luctus purus vehicula a.
-                    Phasellus tempus, sapien eget tincidunt faucibus, felis quam commodo erat, sed tristique odio felis non ligula.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu neque massa. Nullam non sapien volutpat, feugiat lectus at, fringilla magna. 
+                    Vivamus tincidunt volutpat egestas. Suspendisse euismod, lorem eu feugiat scelerisque, ligula enim imperdiet lacus, sed euismod tellus elit convallis nisl. 
+                    Ut non quam sem. Cras eget ante aliquam, volutpat nibh id, sagittis nisl. 
+                    Nam interdum, sem quis vestibulum feugiat, augue elit viverra lectus, vitae hendrerit nisl massa mattis mauris. 
+                    Mauris dignissim ipsum tempus ornare molestie. Integer lobortis in nisl sed interdum. Donec venenatis at lacus eu dictum. 
+                    Fusce faucibus mi a est vestibulum, in pulvinar massa rhoncus. Nulla sit amet leo rhoncus, fermentum neque ac, hendrerit orci. 
+                    Aliquam ac eros vel metus rutrum feugiat eget nec quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque viverra blandit ligula et auctor. 
+                    Donec imperdiet ex eget vehicula ultrices. In vel feugiat nisi. Vestibulum placerat, tellus in placerat aliquet, magna mauris finibus sapien, sodales malesuada lectus quam eu magna. 
+                    Ut vulputate augue a orci bibendum, eget malesuada est finibus. Donec volutpat, urna et euismod efficitur, sapien dui convallis mi, a maximus sem est et lectus. 
+                    Curabitur quis nibh viverra, facilisis est accumsan, ornare leo. Cras eu molestie nibh. Integer sit amet vestibulum neque, a ullamcorper massa. 
+                    Sed at mi nec nibh fringilla interdum. Vivamus pharetra, tortor sed scelerisque pulvinar, tortor diam porta enim, id convallis nisl est id nisl. 
+                    Nunc sed nulla sit amet mi laoreet vehicula. Integer porttitor diam quis condimentum consectetur. Vestibulum sollicitudin lorem est, eget vestibulum mi tempus quis. 
+                    Nullam in quam sed felis facilisis hendrerit non vel felis. In lacinia pretium lectus a auctor. Maecenas at iaculis dolor. Integer rutrum porta lorem nec dignissim. 
+                    Pellentesque mauris lacus, rutrum sit amet enim et, molestie imperdiet nunc. Morbi vitae efficitur mauris.
                 </p>
                 </div>
             </div>

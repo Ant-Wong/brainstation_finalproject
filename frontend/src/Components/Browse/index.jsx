@@ -50,8 +50,8 @@ class Browse extends React.Component {
 
         let filteredArtists = this.state.userInfo.filter((user) => {
             if(user.name.toLowerCase().includes(searchInput.toLowerCase()) ||
-               user.name.toLowerCase().includes(searchInput.toLowerCase()) ||
-               user.name.toLowerCase().includes(searchInput.toLowerCase())
+               user.title.toLowerCase().includes(searchInput.toLowerCase()) ||
+               user.genre.toLowerCase().includes(searchInput.toLowerCase())
             ) return true
                 else if (
                 searchInput.toLowerCase() === ""
@@ -80,7 +80,8 @@ class Browse extends React.Component {
             },
             searchStyle: {
                 margin: '0 auto',
-                maxWidth: 800
+                maxWidth: 800,
+                minHeight: 50
             },
             smallIcon: {
                 width: 36,
@@ -106,9 +107,11 @@ class Browse extends React.Component {
                     <Link to={`/user/${artist._id}`}>
                         <img src={artist.picture} alt="profile" className="img-thumbnail" />
                     </Link>
-                    <div>{artist.name}</div>
-                    <div>{artist.title}</div>
-                    <div>{artist.genre}</div>
+                    <div className="info-padding">
+                    <div className="browse-info">{artist.name}</div>
+                    <div className="browse-info">{artist.title}</div>
+                    <div className="browse-info">{artist.genre}</div>
+                    </div>
                 </span>  
             )
         })
@@ -132,6 +135,7 @@ class Browse extends React.Component {
                     }
                 />
                 <div className="container-fluid">
+                    <h1 className="search-header">Connect with other artists!<img src="./images/microphone.svg" alt="microphone" height="85" width="85" className="microphone" /></h1>
                     <form ref={(self) => { this.searchForm = self }} className="searchform">
                         <div>
                             <SearchBar

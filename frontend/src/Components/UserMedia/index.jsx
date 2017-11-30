@@ -7,7 +7,7 @@ class UserMedia extends React.Component {
         return (
             <div className="container-fluid" className="media-position" id="music">
                 <div className="row">
-                    <h1 className="latest-music">MUSIC<img src="../images/spotify.svg" alt="logo" height="50" width="50" className="icon-header" /></h1>
+                    <h1 className="latest-music">MUSIC<img src="../images/spotify.svg" alt="logo" height="75" width="75" className="icon-header" /></h1>
                 <hr />
                 <div className="col-md-8">
                 <span><iframe src={this.props.userInformation.media} 

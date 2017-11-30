@@ -4,9 +4,7 @@ import { Link } from 'react-router-dom';
 // MUI
 import SignUpForm from '../SignUpForm';
 import AppBar from 'material-ui/AppBar';
-import IconButton from 'material-ui/IconButton';
 import FlatButton from 'material-ui/FlatButton';
-import ActionHome from 'material-ui/svg-icons/action/home';
 import { grey100, blueGrey600 } from 'material-ui/styles/colors';
 
 class SignUp extends React.Component {
@@ -20,7 +18,7 @@ class SignUp extends React.Component {
             title: {
                 fontSize: 30,
                 cursor: 'pointer',
-                paddingLeft: 50
+                paddingLeft: 50,
             },
             smallIcon: {
                 width: 36,
@@ -40,7 +38,7 @@ class SignUp extends React.Component {
         return (
             <div>
                 <AppBar style={styles.navBar}
-                    title={<span style={styles.title}>ELECTRIC CITY</span>}
+                    title={<span style={styles.title} className="nav-title">ELECTRIC CITY</span>}
                     
                     iconElementLeft={
                         <img src="./images/lightning.svg" alt="logo" height="50" width="50"

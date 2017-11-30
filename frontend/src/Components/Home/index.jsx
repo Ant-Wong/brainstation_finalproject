@@ -88,7 +88,8 @@ class Home extends React.Component {
                 <Drawer open={this.props.open} 
                         width={250} 
                         openSecondary={true}
-                        style={styles.drawer}>
+                        style={styles.drawer}
+                        className="drawer">
                     <MenuItem onClick={this.aboutScroll}>ABOUT</MenuItem>
                     <MenuItem onClick={this.pricingScroll}>PRICING</MenuItem>
                     <MenuItem onClick={this.faqScroll}>FAQ</MenuItem>

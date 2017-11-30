@@ -1,12 +1,8 @@
 import React from 'react';
 import BackHome from '../BackHome';
 import Footer from '../Footer';
-import { Link } from 'react-router-dom';
 
 import AppBar from 'material-ui/AppBar';
-// import IconButton from 'material-ui/IconButton';
-import FlatButton from 'material-ui/FlatButton';
-// import ActionHome from 'material-ui/svg-icons/action/home';
 import Drawer from 'material-ui/Drawer';
 import MenuItem from 'material-ui/MenuItem';
 import { grey100, blueGrey600 } from 'material-ui/styles/colors';

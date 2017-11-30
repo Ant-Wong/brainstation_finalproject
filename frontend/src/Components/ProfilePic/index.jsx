@@ -53,9 +53,9 @@ class ProfilePic extends React.Component {
                 <div className="col-md-6">
                     <div className="user-info">
                         <h2 className="info-lines">{this.props.userInformation.name}</h2>
-                        <h3>{this.props.userInformation.title}</h3>
-                        <h3>{this.props.userInformation.location}</h3>
-                        <h3>{this.props.userInformation.email}</h3>
+                        <h3 className="contact">{this.props.userInformation.title}</h3>
+                        <h3 className="contact">{this.props.userInformation.location}</h3>
+                        <h3 className="contact">{this.props.userInformation.email}</h3>
                     </div>
                     <RaisedButton label="CONNECT" 
                                   default={true} 
@@ -70,10 +70,14 @@ class ProfilePic extends React.Component {
                         onRequestClose={this.handleRequestClose}
                         animation={PopoverAnimationVertical} >
                         <Menu>
-                            <MenuItem primaryText="Facebook" />
-                            <MenuItem primaryText="Twitter" />
-                            <MenuItem primaryText="Spotify" />
-                            <MenuItem primaryText="Instgram" />
+                            <MenuItem primaryText="Facebook" 
+                                      href="https://www.facebook.com/" />
+                            <MenuItem primaryText="Twitter"
+                                      href="https://twitter.com/?lang=en" />
+                            <MenuItem primaryText="Spotify" 
+                                      href="https://www.spotify.com/ca-en/" />
+                            <MenuItem primaryText="Instgram" 
+                                      href="https://www.instagram.com/?hl=en" />
                         </Menu>
                     </Popover>
                 </div>

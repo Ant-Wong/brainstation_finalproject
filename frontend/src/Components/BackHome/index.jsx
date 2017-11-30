@@ -16,11 +16,11 @@ class BackHome extends React.Component {
         return (
             <div className="container">
                 <div className="thank-you">
-                    <h1 className="thanks">THANK YOU FOR SIGNING UP!</h1>
+                    <h1 className="thanks">THANKS FOR SIGNING UP!</h1>
                     <div><img src="./images/cheers.svg" 
                               alt="thanks" 
-                              height="220" 
-                              width="220"
+                              height="300" 
+                              width="300"
                               className="cheers"/>
                     </div>
                     <Link to="/">

@@ -25,7 +25,6 @@ db.once('open', () => {
     console.log("Connected to db at /users/db/")
 })
 
-//ENDPOINTS
 app.get("/users", (req, res) => {
     User.find({})
         .then(users => {
@@ -34,25 +33,29 @@ app.get("/users", (req, res) => {
 })
 
 app.get("/users/:id", (req, res) => {
+    console.log(req.params.id)
     User.findById(req.params.id)
         .then(users => {
             res.json(users)
         })
 })
 
-app.post('/login', (req, res) => {
-    let findUser = ""
+app.post('/login', (req, res, next) => {
     User.findOne({
         username: req.body.username
     }).then((user) => {
-        console.log(user)
-        // if (user.password === req.body.password) {
-        //    if()
-        // } else {
-        //     res.redirect("/", {
-        //         authenticated: false
-        //     })
-        // }
+        if (user.password === req.body.password) {
+            res.json({
+                authenticated: true,
+                id: user.id
+            })
+        } else {
+            res.json({
+                authenticated: false,
+                id: null
+            })
+        }
+        //next();
     })
 })
 

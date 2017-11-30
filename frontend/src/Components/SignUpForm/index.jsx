@@ -8,6 +8,9 @@ class SignUpForm extends React.Component {
     render() {
 
         const styles = {
+            inputStyle: {
+                color: grey100
+            },
             underlineStyle: {
                 borderColor: amber500,
             },
@@ -41,6 +44,7 @@ class SignUpForm extends React.Component {
                     floatingLabelStyle={styles.floatingLabelStyle}
                     floatingLabelFocusStyle={styles.floatingLabelFocusStyle}
                     underlineFocusStyle={styles.underlineStyle}
+                    inputStyle={styles.inputStyle}
                     style={styles.textFld}
                     name="username"
                 />
@@ -52,6 +56,7 @@ class SignUpForm extends React.Component {
                     floatingLabelStyle={styles.floatingLabelStyle}
                     floatingLabelFocusStyle={styles.floatingLabelFocusStyle}
                     underlineFocusStyle={styles.underlineStyle}
+                    inputStyle={styles.inputStyle}
                     style={styles.textFld}
                     name="password"
                     type="password"
@@ -64,6 +69,7 @@ class SignUpForm extends React.Component {
                     floatingLabelStyle={styles.floatingLabelStyle}
                     floatingLabelFocusStyle={styles.floatingLabelFocusStyle}
                     underlineFocusStyle={styles.underlineStyle}
+                    inputStyle={styles.inputStyle}
                     style={styles.textFld}
                     name="name"
                 />
@@ -75,6 +81,7 @@ class SignUpForm extends React.Component {
                     floatingLabelStyle={styles.floatingLabelStyle}
                     floatingLabelFocusStyle={styles.floatingLabelFocusStyle}
                     underlineFocusStyle={styles.underlineStyle}
+                    inputStyle={styles.inputStyle}
                     style={styles.textFld}
                     name="title"
                 />
@@ -86,6 +93,7 @@ class SignUpForm extends React.Component {
                     floatingLabelStyle={styles.floatingLabelStyle}
                     floatingLabelFocusStyle={styles.floatingLabelFocusStyle}
                     underlineFocusStyle={styles.underlineStyle}
+                    inputStyle={styles.inputStyle}
                     style={styles.textFld}
                     name="genre"
                 />
@@ -98,6 +106,7 @@ class SignUpForm extends React.Component {
                     floatingLabelStyle={styles.floatingLabelStyle}
                     floatingLabelFocusStyle={styles.floatingLabelFocusStyle}
                     underlineFocusStyle={styles.underlineStyle}
+                    inputStyle={styles.inputStyle}
                     style={styles.textFld}
                     name="picture"
                 />
@@ -109,6 +118,7 @@ class SignUpForm extends React.Component {
                     floatingLabelStyle={styles.floatingLabelStyle}
                     floatingLabelFocusStyle={styles.floatingLabelFocusStyle}
                     underlineFocusStyle={styles.underlineStyle}
+                    inputStyle={styles.inputStyle}
                     style={styles.textFld}
                     name="location"
                 />
@@ -120,6 +130,7 @@ class SignUpForm extends React.Component {
                     floatingLabelStyle={styles.floatingLabelStyle}
                     floatingLabelFocusStyle={styles.floatingLabelFocusStyle}
                     underlineFocusStyle={styles.underlineStyle}
+                    inputStyle={styles.inputStyle}
                     style={styles.textFld}
                     name="email"
                 />
@@ -131,6 +142,7 @@ class SignUpForm extends React.Component {
                     floatingLabelStyle={styles.floatingLabelStyle}
                     floatingLabelFocusStyle={styles.floatingLabelFocusStyle}
                     underlineFocusStyle={styles.underlineStyle}
+                    inputStyle={styles.inputStyle}
                     style={styles.textFld}
                     name="bio"
                 />
@@ -142,6 +154,7 @@ class SignUpForm extends React.Component {
                     floatingLabelStyle={styles.floatingLabelStyle}
                     floatingLabelFocusStyle={styles.floatingLabelFocusStyle}
                     underlineFocusStyle={styles.underlineStyle}
+                    inputStyle={styles.inputStyle}
                     style={styles.textFld}
                     name="media"
                 />

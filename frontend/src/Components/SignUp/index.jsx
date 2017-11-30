@@ -39,11 +39,13 @@ class SignUp extends React.Component {
             <div>
                 <AppBar style={styles.navBar}
                     title={<span style={styles.title} className="nav-title">ELECTRIC CITY</span>}
-                    
                     iconElementLeft={
-                        <img src="./images/lightning.svg" alt="logo" height="50" width="50"
-                            onClick={this.props.handleToggle}
-                            className="icon-menu" />
+                        <img src="./images/lightning.svg" 
+                             alt="logo" 
+                             height="50" 
+                             width="50"
+                             onClick={this.props.handleToggle}
+                             className="icon-menu" />
                     }
                     iconElementRight={
                         <Link to="/">

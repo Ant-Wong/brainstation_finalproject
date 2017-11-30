@@ -32,11 +32,13 @@ class ThankYou extends React.Component {
                     title={<span style={styles.title}>ELECTRIC CITY</span>}
                     
                     iconElementLeft={
-                        <img src="./images/lightning.svg" alt="logo" height="50" width="50"
+                        <img src="./images/lightning.svg" 
+                             alt="logo" 
+                             height="50" 
+                             width="50"
                              onClick={this.props.handleToggle} 
                              className="icon-menu" />
                     }
-
                 />
                 <Drawer open={this.props.open} 
                         width={250} 

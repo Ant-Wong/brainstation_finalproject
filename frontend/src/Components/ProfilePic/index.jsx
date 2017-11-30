@@ -31,8 +31,11 @@ class ProfilePic extends React.Component {
 
         const styles = {
             connectStyle: {
-                width: 150,
-                height: 75
+                width: 167,
+                height: 65
+            },
+            popoverStyle: {
+                width: 120
             }
         }
 
@@ -70,7 +73,8 @@ class ProfilePic extends React.Component {
                         onRequestClose={this.handleRequestClose}
                         animation={PopoverAnimationVertical} >
                         <Menu>
-                            <MenuItem primaryText="Facebook" 
+                            <MenuItem primaryText="Facebook"
+                                      style={styles.popoverStyle} 
                                       href="https://www.facebook.com/" />
                             <MenuItem primaryText="Twitter"
                                       href="https://twitter.com/?lang=en" />

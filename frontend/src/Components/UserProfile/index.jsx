@@ -78,14 +78,12 @@ class UserProfile extends React.Component {
                     title={<span style={styles.title}>ELECTRIC CITY</span>}
                     
                     iconElementLeft={
-                        <img src="../images/lightning.svg" alt="logo" height="50" width="50"
-                            onClick={this.props.handleToggle}
-                            className="icon-menu" />
-                        // <IconButton
-                        // iconStyle={styles.smallIcon}
-                        // style={styles.small}>
-                        //     <ActionHome onClick={this.props.handleToggle}/>
-                        // </IconButton>
+                        <img src="../images/lightning.svg" 
+                             alt="logo" 
+                             height="50" 
+                             width="50"
+                             onClick={this.props.handleToggle}
+                             className="icon-menu" />
                     }
                     iconElementRight={
                         <Link to="/browse">

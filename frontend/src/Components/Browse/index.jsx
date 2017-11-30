@@ -3,12 +3,9 @@ import axios from 'axios';
 import { Link } from 'react-router-dom';
 
 // MUI
-// import SearchForm from '../SearchForm';
 import SearchBar from 'material-ui-search-bar';
-// import PhotoGrid from '../PhotoGrid';
 import PageNav from '../PageNav';
 import AppBar from 'material-ui/AppBar';
-import FlatButton from 'material-ui/FlatButton';
 import { grey100, blueGrey600 } from 'material-ui/styles/colors';
 
 class Browse extends React.Component {
@@ -55,7 +52,8 @@ class Browse extends React.Component {
             ) return true
                 else if (
                 searchInput.toLowerCase() === ""
-                ) return true
+                ) 
+                return true
         })
 
 
@@ -105,7 +103,9 @@ class Browse extends React.Component {
             return (
                 <span className="avatar" key={i}>
                     <Link to={`/user/${artist._id}`}>
-                        <img src={artist.picture} alt="profile" className="img-thumbnail" />
+                        <img src={artist.picture} 
+                             alt="profile" 
+                             className="img-thumbnail" />
                     </Link>
                     <div className="info-padding">
                     <div className="browse-info">{artist.name}</div>
@@ -122,20 +122,23 @@ class Browse extends React.Component {
                     title={<span style={styles.title}>ELECTRIC CITY</span>}
                     
                     iconElementLeft={
-                        <img src="./images/lightning.svg" alt="logo" height="50" width="50"
-                            onClick={this.props.handleToggle}
-                            className="icon-menu" />
-                    }
-                    iconElementRight={
-                        <Link to="/user">
-                            <FlatButton label="HOME" 
-                                        linkButton={true}
-                                        style={styles.topRight}/>
-                        </Link>
+                        <img src="./images/lightning.svg" 
+                             alt="logo" 
+                             height="50" 
+                             width="50"
+                             onClick={this.props.handleToggle}
+                             className="icon-menu" />
                     }
                 />
                 <div className="container-fluid">
-                    <h1 className="search-header">Connect with other artists!<img src="./images/microphone.svg" alt="microphone" height="85" width="85" className="microphone" /></h1>
+                    <h1 className="search-header">
+                        Connect with other artists!
+                        <img src="./images/microphone.svg" 
+                             alt="microphone" 
+                             height="85" 
+                             width="85" 
+                             className="microphone" />
+                    </h1>
                     <form ref={(self) => { this.searchForm = self }} className="searchform">
                         <div>
                             <SearchBar

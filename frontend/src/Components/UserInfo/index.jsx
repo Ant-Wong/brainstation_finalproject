@@ -8,13 +8,13 @@ class UserInfo extends React.Component {
         } else {
             return (
                 <div className="container-fluid">
-                <div className="jumbotron" id="bio">
-                    <h1 className="display-3">BIOGRAPHY</h1>
-                    <hr className="my-4" />
-                        <p className="bio-info">
-                            {this.props.userInformation.bio}
-                        </p>
-                </div>
+                    <div className="jumbotron" id="bio">
+                        <h1 className="display-3">BIOGRAPHY</h1>
+                        <hr className="my-4" />
+                            <p className="bio-info">
+                                {this.props.userInformation.bio}
+                            </p>
+                    </div>
                 </div>
             )
         }

@@ -7,6 +7,9 @@ class LogIn extends React.Component {
     render() {
         console.log(this.props.authenticated)
         const styles = {
+            inputStyle: {
+                color: grey100
+            },
             floatingLabelStyle: {
                 color: grey100,
             },
@@ -42,6 +45,7 @@ class LogIn extends React.Component {
                         floatingLabelStyle={styles.floatingLabelStyle}
                         floatingLabelFocusStyle={styles.floatingLabelFocusStyle}
                         underlineFocusStyle={styles.underlineStyle}
+                        inputStyle={styles.inputStyle}
                         style={styles.textFld}
                         name="username"
                     />
@@ -52,6 +56,7 @@ class LogIn extends React.Component {
                         floatingLabelStyle={styles.floatingLabelStyle}
                         floatingLabelFocusStyle={styles.floatingLabelFocusStyle}
                         underlineFocusStyle={styles.underlineStyle}
+                        inputStyle={styles.inputStyle}
                         style={styles.textFld}
                         name="password"
                         type="password"
@@ -64,6 +69,7 @@ class LogIn extends React.Component {
                     style={styles.button1}
                     className="loginButton"
                     onClick={() => { 
+                        console.log(this.loginForm.password.value)
                         this.props.logIn(this.loginForm.username.value, this.loginForm.password.value)
                         }}
                     />

@@ -28,9 +28,10 @@ class App extends React.Component {
     this.logIn = this.logIn.bind(this);
   }
 
-  componentDidMount() {
-    {this.state.authenticated}
+  componentDidUpdate() {
+    window.scrollTo(0, 0);
   }
+
   logIn = (username, password) => {
     console.log('triggered')
     axios.post('http://localhost:8000/login', {
@@ -40,6 +41,9 @@ class App extends React.Component {
       console.log(response.data)
       this.setState({
         authenticated: response.data.authenticated
+      }, () => {
+        console.log(response.data)
+        window.location = "/user/" + response.data.id
       })
     })
   }

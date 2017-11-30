@@ -1,0 +1,219 @@
+#root {
+  background-color: #90A4AE;
+}
+
+.icon-menu {
+  margin-left: 30px;
+}
+
+.icon-menu:hover {
+  opacity: 0.3;
+	filter: alpha(opacity=30);
+}
+
+/* HOME */
+#login-background {
+  background-image: url("https://bassgorilla.com/wp-content/uploads/2014/11/background-studio-image.jpg")
+}
+
+.welcome {
+  margin-bottom: 80px;
+  font-size: 5em;
+  color: white;
+}
+
+.login-form {
+  padding-top: 250px;
+  text-align: center;
+}
+
+.info {
+  margin: 0px 0px 260px 0px;
+  color: white;
+}
+
+.icon-header {
+  margin-left: 25px;
+}
+
+#about {
+  padding-top: 85px;
+}
+
+#pricing {
+  padding-top: 85px;
+}
+
+#faq {
+  padding-top: 85px;
+}
+
+.home-header {
+  font-size: 3em;
+  padding: 0px 50px 0px 50px;
+}
+
+.paragraph {
+  padding: 50px;
+  font-size: 1.5em;
+}
+
+.footer {
+  text-align: center;
+  margin: 50px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 60px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 25px;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-spotify {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+
+/* SIGNUP */
+.signup-form {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.submit-button {
+  margin: 100px 0px 50px 0px;
+}
+
+/* USERPROFILE */
+#profile-background {
+  background-image: url("https://i.pinimg.com/originals/b5/36/9a/b5369ae73f12204464fef1de98c14a66.jpg");
+  background-size: cover;
+  padding-bottom: 120px;
+}
+
+#profile-pic {
+  display: block;
+  margin-top: 180px;
+}
+
+.profile-icons {
+  margin: 50px 0px 0px 125px
+}
+
+.img-fluid {
+  border-radius: 10px;
+  border: 5px solid #F5F5F5;
+  max-width: 500px;
+  margin-left: 125px;
+}
+
+.user-info {
+  margin: 190px 30px 0px 0px;
+  text-align: center;
+  color: white;
+}
+
+.info-lines {
+  font-size: 5em;
+  margin-bottom: 110px;
+}
+
+.connect-button {
+  margin-top: 80px;
+  margin-left: 300px;
+}
+
+.jumbotron {
+  margin-top: 85px;
+  padding: 85px 0px 85px 0px;
+}
+
+.latest-music {
+  color: white;
+  font-size: 3em;
+  padding-left: 25px;
+}
+
+.col-md-8 {
+  margin-top: 50px;
+}
+
+.media-position {
+  margin: 100px 45px 40px 45px;
+}
+
+.disc {
+  margin-top: 75px;
+}
+
+
+/* BROWSE */
+.searchform {
+  margin-top: 200px;
+}
+
+.userphotos {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.avatar {
+  display: inline-table;
+  margin: 20px;
+  max-width: 300px;
+  color: white;
+  font-size: 1.2em;
+}
+
+.page-select {
+  text-align: center;
+  margin: 60px;
+}
+
+.nav-buttons {
+  margin: 0px 30px 0px 30px;
+}
+
+.nav-buttons:hover {
+  opacity: 0.3;
+	filter: alpha(opacity=30);
+}
+
+/* THANKYOU */
+.thank-you {
+  text-align: center;
+  margin-top: 230px;
+}
+
+.cheers {
+  padding-top: 70px;
+}
+
+.thanks {
+  font-size: 4em;
+  color: white;
+}
+
+.back-home {
+  margin: 150px 0px 100px 0px;
+}

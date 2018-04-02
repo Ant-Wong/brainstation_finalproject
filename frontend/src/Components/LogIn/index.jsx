@@ -1,7 +1,7 @@
 import React from 'react';
 import TextField from 'material-ui/TextField';
 import RaisedButton from 'material-ui/RaisedButton';
-import { grey100, amber500 } from 'material-ui/styles/colors';
+import { grey100, yellow600 } from 'material-ui/styles/colors';
 
 class LogIn extends React.Component {
     render() {
@@ -14,10 +14,10 @@ class LogIn extends React.Component {
                 color: grey100,
             },
             floatingLabelFocusStyle: {
-                color: amber500,
+                color: yellow600,
             },
             underlineStyle: {
-                borderColor: amber500,
+                borderColor: yellow600,
             },
             textFld: { 
                 width: 700, 
@@ -68,6 +68,7 @@ class LogIn extends React.Component {
                     default={true} 
                     style={styles.button1}
                     className="loginButton"
+                    type="submit"
                     onClick={() => { 
                         console.log(this.loginForm.password.value)
                         this.props.logIn(this.loginForm.username.value, this.loginForm.password.value)

@@ -42,7 +42,9 @@ class ProfilePic extends React.Component {
         return (
             <div className="container-fluid" id="profile-background">
                 <div className="row">
-                <div className="col-md-6" id="profile-pic">
+                    <div className="col-md-1">
+                    </div>
+                <div className="col-md-5" id="profile-pic">
                 <img src={this.props.userInformation.picture}
                      className="img-fluid" 
                      alt="Profile Pic" />
@@ -53,7 +55,7 @@ class ProfilePic extends React.Component {
                     <a href="https://www.instagram.com/?hl=en" className="fa fa-instagram"></a>
                 </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-5" id="contact-background">
                     <div className="user-info">
                         <h2 className="info-lines">{this.props.userInformation.name}</h2>
                         <h3 className="contact">{this.props.userInformation.title}</h3>
@@ -84,6 +86,8 @@ class ProfilePic extends React.Component {
                                       href="https://www.instagram.com/?hl=en" />
                         </Menu>
                     </Popover>
+                </div>
+                <div className="col-md-1">
                 </div>
                 </div>
             </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import TextField from 'material-ui/TextField';
 import RaisedButton from 'material-ui/RaisedButton';
-import { amber500, grey100 } from 'material-ui/styles/colors';
+import { yellow600, grey100 } from 'material-ui/styles/colors';
 
 class SignUpForm extends React.Component {
     render() {
@@ -12,13 +12,13 @@ class SignUpForm extends React.Component {
                 color: grey100
             },
             underlineStyle: {
-                borderColor: amber500,
+                borderColor: yellow600,
             },
             floatingLabelStyle: {
                 color: grey100,
             },
             floatingLabelFocusStyle: {
-                color: amber500,
+                color: yellow600,
             },
             textFld: {
                 width: 500,
@@ -30,9 +30,9 @@ class SignUpForm extends React.Component {
         };
         
         return (
-            <div className="container">
+            <div>
+            <div className="container-fluid" id="signup-background">
                 <h1 className="info-request">
-                    <img src="./images/clipboard.svg" alt="checklist" height="100" width="100" className="clipboard" />
                     Please enter your information
                     <img src="./images/clipboard.svg" alt="checklist" height="100" width="100" className="clipboard"/>
                 </h1>
@@ -161,7 +161,9 @@ class SignUpForm extends React.Component {
                 </div>
                 </div>
                 <br />
-                <div>
+                </form>
+                </div>
+                <div className="container-fluid" id="signedup">
                 <Link to="/thankyou">
                 <RaisedButton 
                     label="SUBMIT" 
@@ -182,7 +184,6 @@ class SignUpForm extends React.Component {
                 />
                 </Link>
                 </div>
-                </form>
             </div>
         )
     }

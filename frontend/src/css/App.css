@@ -22,6 +22,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 90px;
 }
 
 .welcome {
@@ -65,12 +66,14 @@
   font-size: 3.5em;
   padding: 0px 50px 0px 50px;
   font-family: 'Rajdhani', sans-serif;
+  letter-spacing: 5px;
 }
 
 .paragraph {
   padding: 50px;
   font-size: 1.75em;
   font-family: 'Exo 2', sans-serif;
+  text-indent: 70px;
 }
 
 .footer {
@@ -110,8 +113,17 @@
 
 
 /* SIGNUP */
+#signup-background {
+  background-image: url("http://thespaces.com/wp-content/uploads/2015/05/10960357_10153049536867560_7941983114858491530_o.jpg");
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
 .info-request {
-  font-size: 3.5em;
+  font-size: 4em;
   padding-top: 120px;
   text-align: center;
   color: white;
@@ -123,12 +135,17 @@
 }
 
 .signup-form {
-  margin-top: 70px;
+  margin-top: 40px;
   text-align: center;
 }
 
 .submit-button {
-  margin: 100px 0px 50px 0px;
+  margin: 50px 0px 50px 0px;
+}
+
+#signedup {
+  text-align: center;
+  background: #546E7A;
 }
 
 /* USERPROFILE */
@@ -139,7 +156,15 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  padding-bottom: 120px;
+  padding-bottom: 190px;
+}
+
+#contact-background {
+  background-image: src="../images/music.svg";
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #profile-pic {
@@ -153,14 +178,13 @@
 }
 
 .profile-icons {
-  margin: 50px 0px 0px 125px
+  margin: 50px 125px 0px 0px;
 }
 
 .img-fluid {
   border-radius: 7px;
   border: 4px solid #F5F5F5;
   max-width: 500px;
-  margin-left: 125px;
 }
 
 .user-info {
@@ -177,7 +201,7 @@
 
 .connect-button {
   margin-top: 80px;
-  margin-left: 300px;
+  margin-left: 222px;
 }
 
 .jumbotron {
@@ -190,10 +214,12 @@
 
 .bio-info {
   font-family: 'Exo 2', sans-serif;
+  text-indent: 70px;
 }
 
 .display-3 {
   font-family: 'Rajdhani', sans-serif;
+  letter-spacing: 5px;
 }
 
 .latest-music {
@@ -201,6 +227,7 @@
   font-size: 3.5em;
   padding-left: 25px;
   font-family: 'Rajdhani', sans-serif;
+  letter-spacing: 5px;
 }
 
 #music {
@@ -256,10 +283,17 @@
   padding: 0px;
 }
 
+#artistname {
+  font-size: 1.3em;
+  letter-spacing: 3px;
+  font-weight: 900;
+  color: #FFF59D;
+}
+
 .browse-info {
   font-family: 'Rajdhani', sans-serif;
   background: #546E7A;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .avatar {

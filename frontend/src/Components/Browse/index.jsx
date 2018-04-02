@@ -108,7 +108,7 @@ class Browse extends React.Component {
                              className="img-thumbnail" />
                     </Link>
                     <div className="info-padding">
-                    <div className="browse-info">{artist.name}</div>
+                    <div className="browse-info" id="artistname">{artist.name}</div>
                     <div className="browse-info">{artist.title}</div>
                     <div className="browse-info">{artist.genre}</div>
                     </div>
